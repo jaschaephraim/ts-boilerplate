@@ -8,7 +8,11 @@
   },
   "packageManager": "^pnpm@8.5.0",
   "scripts": {
-    "typecheck": "tsc --noEmit"
+    "postinstall": "husky install",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "dev": "tsx watch ./src/index.ts",
+    "start": "tsx ./src/index.ts"
   },
   "keywords": [],
   "author": "",
