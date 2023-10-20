@@ -1,8 +1,7 @@
 {
   "extends": [
     "@tsconfig/node20/tsconfig.json",
-    "@tsconfig/strictest/tsconfig.json",
-    "@tsconfig/esm/tsconfig.json"
+    "@tsconfig/strictest/tsconfig.json"
   ],
   "compilerOptions": {
     "strict": true,

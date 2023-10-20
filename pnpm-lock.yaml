@@ -4,15 +4,7 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-dependencies:
-  prettier:
-    specifier: ^3.0.3
-    version: 3.0.3
-
 devDependencies:
-  '@tsconfig/esm':
-    specifier: ^1.0.5
-    version: 1.0.5
   '@tsconfig/node20':
     specifier: ^20.1.2
     version: 20.1.2
@@ -46,6 +38,9 @@ devDependencies:
   husky:
     specifier: ^8.0.3
     version: 8.0.3
+  prettier:
+    specifier: ^3.0.3
+    version: 3.0.3
   tsx:
     specifier: ^3.14.0
     version: 3.14.0
@@ -334,11 +329,6 @@ packages:
     dependencies:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.15.0
-    dev: true
-
-  /@tsconfig/esm@1.0.5:
-    resolution: {integrity: sha512-JzoZ0h299JRLPfV5VBsMq1TuMy+OmU9bdV/7NcjfRojL0eIcA1k5ESrtjWrDwJRJnk9B0QmgR0rq04LERbdfWw==}
-    deprecated: this package has been deprecated
     dev: true
 
   /@tsconfig/node20@20.1.2:
@@ -1668,7 +1658,7 @@ packages:
     resolution: {integrity: sha512-L/4pUDMxcNa8R/EthV08Zt42WBO4h1rarVtK0K+QJG0X187OLo7l699jWw0GKuwzkPQ//jMFA/8Xm6Fh3J/DAg==}
     engines: {node: '>=14'}
     hasBin: true
-    dev: false
+    dev: true
 
   /punycode@2.3.0:
     resolution: {integrity: sha512-rRV+zQD8tVFys26lAGR9WUuS4iUAngJScM+ZRSKtvl5tKeZ2t5bvdNFdNHBW9FWR4guGHlgmsZ1G7BSm2wTbuA==}
