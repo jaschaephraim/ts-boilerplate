@@ -1,0 +1,14 @@
+{
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "hb432.prettier-eslint-typescript"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "hb432.prettier-eslint-typescript"
+  }
+}

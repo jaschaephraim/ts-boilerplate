@@ -5,14 +5,17 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
-  '@tsconfig/node20':
-    specifier: ^20.1.2
-    version: 20.1.2
+  prettier:
+    specifier: ^3.0.3
+    version: 3.0.3
 
 devDependencies:
   '@tsconfig/esm':
     specifier: ^1.0.5
     version: 1.0.5
+  '@tsconfig/node20':
+    specifier: ^20.1.2
+    version: 20.1.2
   '@tsconfig/strictest':
     specifier: ^2.0.2
     version: 2.0.2
@@ -43,9 +46,6 @@ devDependencies:
   husky:
     specifier: ^8.0.3
     version: 8.0.3
-  prettier:
-    specifier: ^2.8.8
-    version: 2.8.8
   tsx:
     specifier: ^3.14.0
     version: 3.14.0
@@ -343,7 +343,7 @@ packages:
 
   /@tsconfig/node20@20.1.2:
     resolution: {integrity: sha512-madaWq2k+LYMEhmcp0fs+OGaLFk0OenpHa4gmI4VEmCKX4PJntQ6fnnGADVFrVkBj0wIdAlQnK/MrlYTHsa1gQ==}
-    dev: false
+    dev: true
 
   /@tsconfig/strictest@2.0.2:
     resolution: {integrity: sha512-jt4jIsWKvUvuY6adJnQJlb/UR7DdjC8CjHI/OaSQruj2yX9/K6+KOvDt/vD6udqos/FUk5Op66CvYT7TBLYO5Q==}
@@ -1664,11 +1664,11 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /prettier@2.8.8:
-    resolution: {integrity: sha512-tdN8qQGvNjw4CHbY+XXk0JgCXn9QiF21a55rBe5LJAU+kDyC4WQn4+awm2Xfk2lQMk5fKup9XgzTZtGkjBdP9Q==}
-    engines: {node: '>=10.13.0'}
+  /prettier@3.0.3:
+    resolution: {integrity: sha512-L/4pUDMxcNa8R/EthV08Zt42WBO4h1rarVtK0K+QJG0X187OLo7l699jWw0GKuwzkPQ//jMFA/8Xm6Fh3J/DAg==}
+    engines: {node: '>=14'}
     hasBin: true
-    dev: true
+    dev: false
 
   /punycode@2.3.0:
     resolution: {integrity: sha512-rRV+zQD8tVFys26lAGR9WUuS4iUAngJScM+ZRSKtvl5tKeZ2t5bvdNFdNHBW9FWR4guGHlgmsZ1G7BSm2wTbuA==}
