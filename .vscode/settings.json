@@ -6,21 +6,9 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascript]": {
-    // "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
   },
   "[typescript]": {
-    // "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
-  },
-
-  "emeraldwalk.runonsave": {
-    "commands": [
-      {
-        "match": ".*\\.[js,ts]",
-        "isAsync": false,
-        "cmd": "pnpm prettier --write ${file}"
-      }
-    ]
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
   }
 }
