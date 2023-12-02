@@ -4,11 +4,13 @@
     "@tsconfig/strictest/tsconfig.json"
   ],
   "compilerOptions": {
-    "strict": true,
     "baseUrl": "src",
-    "outDir": "dist",
     "declaration": true,
-    "declarationMap": true
+    "declarationMap": true,
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "outDir": "dist",
+    "strict": true
   },
   "exclude": ["dist"]
 }
